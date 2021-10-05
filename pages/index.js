@@ -30,6 +30,15 @@ export default function Home({allPostsData}) {
                 </p>
             </section>
 
+            <section className={utilStyles.headingMd}>
+                <p>IMAGE GALLERY</p>
+                <p>
+                    <Link href={'/image_gallery/imageGallery'}>
+                        <a>Image gallery</a>
+                    </Link>
+                </p>
+            </section>
+
             {/* Add this <section> tag below the existing <section> tag */}
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
