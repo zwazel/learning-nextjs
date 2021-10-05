@@ -31,10 +31,9 @@ export default function Home({allPostsData}) {
             </section>
 
             <section className={utilStyles.headingMd}>
-                <p>IMAGE GALLERY</p>
                 <p>
                     <Link href={'/image_gallery/imageGallery'}>
-                        <a>Image gallery</a>
+                        <a>IMAGE GALLERY</a>
                     </Link>
                 </p>
             </section>
