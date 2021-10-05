@@ -22,7 +22,6 @@ export default function Home({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
 
-            {/* Keep the existing code here */}
             <section className={utilStyles.headingMd}>
                 <p>HI I'M ZWAZEL</p>
                 <p>
@@ -38,7 +37,6 @@ export default function Home({allPostsData}) {
                 </p>
             </section>
 
-            {/* Add this <section> tag below the existing <section> tag */}
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
