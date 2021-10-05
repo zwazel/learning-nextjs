@@ -26,7 +26,7 @@ export default function Home({allPostsData}) {
             <section className={utilStyles.headingMd}>
                 <p>HI I'M ZWAZEL</p>
                 <p>
-                    <a href="https://nextjs.org/learn">GREAT TUTORIAL</a>.)
+                    <a href="https://nextjs.org/learn" target={"_blank"}>GREAT TUTORIAL</a> :)
                 </p>
             </section>
 
