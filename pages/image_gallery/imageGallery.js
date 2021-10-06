@@ -23,13 +23,13 @@ export default function ImageGallery({allImagesData}) {
 
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
-                <ul className={utilStyles.list}>
+                <div>
                     {allImagesData.map(({id, fileName}) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Image src={'/gallery/'+fileName} alt={id} layout={"fill"}/>
                         </li>
                     ))}
-                </ul>
+                </div>
             </section>
         </Layout>
     )
