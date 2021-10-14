@@ -23,13 +23,9 @@ export default function ImageGallery({allImagesData}) {
 
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
-                <div className={galleryStyle.galleryContainer}>
-                    {allImagesData.map(({id, fileName}) => (
-                        <div className={galleryStyle.galleryItemContainer} key={id}>
-                            <Image src={'/gallery/' + fileName} alt={id} layout={"fill"}/>
-                        </div>
-                    ))}
-                </div>
+                {allImagesData.map(({id, fileName}) => (
+                    <Image src={'/gallery/' + fileName} key={id} alt={id} width={600} height={400}/>
+                ))}
             </section>
         </Layout>
     )
